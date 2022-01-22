@@ -8,14 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		E65517A8267CC33700035D48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E65517A7267CC33700035D48 /* AppDelegate.swift */; };
-		E65517AC267CC33700035D48 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E65517AB267CC33700035D48 /* ViewController.swift */; };
 		E65517AF267CC33700035D48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E65517AD267CC33700035D48 /* Main.storyboard */; };
 		E65517B1267CC33900035D48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E65517B0267CC33900035D48 /* Assets.xcassets */; };
 		E65517B4267CC33900035D48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E65517B2267CC33900035D48 /* LaunchScreen.storyboard */; };
 		E65517BF267CC33A00035D48 /* ChabokDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E65517BE267CC33A00035D48 /* ChabokDemoTests.swift */; };
 		E65517CA267CC33A00035D48 /* ChabokDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E65517C9267CC33A00035D48 /* ChabokDemoUITests.swift */; };
 		E6A1A0D1271C4C3900EBCFC9 /* SampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A1A0D0271C4C3900EBCFC9 /* SampleViewController.swift */; };
-		E6F2D8C026BA7E8500584CFD /* TestObjc.m in Sources */ = {isa = PBXBuildFile; fileRef = E6F2D8BF26BA7E8500584CFD /* TestObjc.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,7 +55,6 @@
 		D365FED771C3E110D4335EEF /* Pods-ChabokDemo-ChabokDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChabokDemo-ChabokDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-ChabokDemo-ChabokDemoUITests/Pods-ChabokDemo-ChabokDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
 		E65517A4267CC33700035D48 /* ChabokDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChabokDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E65517A7267CC33700035D48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E65517AB267CC33700035D48 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E65517AE267CC33700035D48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E65517B0267CC33900035D48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E65517B3267CC33900035D48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -69,8 +66,6 @@
 		E65517C9267CC33A00035D48 /* ChabokDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChabokDemoUITests.swift; sourceTree = "<group>"; };
 		E65517CB267CC33A00035D48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E6A1A0D0271C4C3900EBCFC9 /* SampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleViewController.swift; sourceTree = "<group>"; };
-		E6F2D8BF26BA7E8500584CFD /* TestObjc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestObjc.m; sourceTree = "<group>"; };
-		E6F2D92926BA8AFE00584CFD /* TestObjc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestObjc.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,14 +133,11 @@
 			isa = PBXGroup;
 			children = (
 				E65517A7267CC33700035D48 /* AppDelegate.swift */,
-				E65517AB267CC33700035D48 /* ViewController.swift */,
 				E6A1A0D0271C4C3900EBCFC9 /* SampleViewController.swift */,
 				E65517AD267CC33700035D48 /* Main.storyboard */,
 				E65517B0267CC33900035D48 /* Assets.xcassets */,
 				E65517B2267CC33900035D48 /* LaunchScreen.storyboard */,
 				E65517B5267CC33900035D48 /* Info.plist */,
-				E6F2D8BF26BA7E8500584CFD /* TestObjc.m */,
-				E6F2D92926BA8AFE00584CFD /* TestObjc.h */,
 			);
 			path = ChabokDemo;
 			sourceTree = "<group>";
@@ -422,9 +414,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E65517AC267CC33700035D48 /* ViewController.swift in Sources */,
 				E65517A8267CC33700035D48 /* AppDelegate.swift in Sources */,
-				E6F2D8C026BA7E8500584CFD /* TestObjc.m in Sources */,
 				E6A1A0D1271C4C3900EBCFC9 /* SampleViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

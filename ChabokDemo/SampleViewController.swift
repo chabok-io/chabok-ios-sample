@@ -190,10 +190,10 @@ class SampleViewController: UITableViewController {
     }
     @IBAction func sampleProfileClicked(_ sender: Any) {
         let profile:Profile = Profile.Builder()
-            .email("h.habibi@chabok.io")
-            .mobile("09331952921")
-            .name("Hussein")
-            .family("Habibi Juybari")
+            .email("hoss@gmail.com")
+            .mobile("09100360500")
+            .name("Hossein")
+            .family("Shooshtari")
             .timeZone("210")
             .birthDate("1992-02-10")
             .gender(Gender.MALE)
