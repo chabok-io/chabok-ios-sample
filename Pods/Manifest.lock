@@ -1,0 +1,16 @@
+PODS:
+  - ChabokKit (0.11.0)
+
+DEPENDENCIES:
+  - ChabokKit (~> 0.11.0)
+
+SPEC REPOS:
+  trunk:
+    - ChabokKit
+
+SPEC CHECKSUMS:
+  ChabokKit: 5067b92af8d531c0f3f8041ffbee1010d722fa74
+
+PODFILE CHECKSUM: bbff5199a2368238cf7a908aa5548c10f4c16bef
+
+COCOAPODS: 1.11.2
