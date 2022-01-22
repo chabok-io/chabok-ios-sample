@@ -64,14 +64,6 @@ class SampleViewController: UITableViewController {
         return Credentials.init(clientId: clientId, clientSecret: clientSecret)
     }
     
-    func showInitState(state: Bool) {
-//        if state {
-//            self.initializeLabel.text = "Initialize 🟢"
-//        } else {
-//            self.initializeLabel.text = "Initialize 🔴"
-//        }
-    }
-    
     @IBAction func loginClicked(_ sender: Any) {
         if let userId = self.userIdTextField.text {
             Chabok.user().login(userId: userId) {
